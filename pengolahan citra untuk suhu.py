@@ -6,11 +6,11 @@ import paho.mqtt.client as mqtt
 import time
 
 # MQTT broker configuration
-mqtt_broker = "159.223.61.133"
+mqtt_broker = ""
 mqtt_port = 1883
 mqtt_topic = "door/status"
-mqtt_username = "mecharoot"
-mqtt_password = "mecharnd595"
+mqtt_username = ""
+mqtt_password = ""
 
 # set up the thermal camera index (thermal_camera = cv2.VideoCapture(0, cv2.CAP_DSHOW) on Windows OS)
 thermal_camera = cv2.VideoCapture(0, cv2.CAP_DSHOW)
